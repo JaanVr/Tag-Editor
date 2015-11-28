@@ -1,0 +1,15 @@
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjPlayer.exe.config
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjPlayer.exe
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjPlayer.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjPlayer.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjAudioFail.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\taglib-sharp.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjAudioFail.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjAudioFail.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\obj\Debug\PrjPlayer.vbprojResolveAssemblyReference.cache
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\obj\Debug\PrjPlayer.formPlayer.resources
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\obj\Debug\PrjPlayer.Resources.resources
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\obj\Debug\PrjPlayer.vbproj.GenerateResource.Cache
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\obj\Debug\PrjPlayer.exe
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\obj\Debug\PrjPlayer.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\obj\Debug\PrjPlayer.pdb
