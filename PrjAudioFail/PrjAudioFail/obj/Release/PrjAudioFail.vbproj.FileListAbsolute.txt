@@ -1,0 +1,12 @@
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\bin\Release\PrjAudioFail.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\bin\Release\PrjAudioFail.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\bin\Release\PrjAudioFail.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\bin\Release\policy.2.0.taglib-sharp.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\bin\Release\taglib-sharp.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\bin\Release\policy.2.0.taglib-sharp.config
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\obj\Release\PrjAudioFail.Resources.resources
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\obj\Release\PrjAudioFail.vbproj.GenerateResource.Cache
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\obj\Release\PrjAudioFail.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\obj\Release\PrjAudioFail.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\obj\Release\PrjAudioFail.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjAudioFail\PrjAudioFail\obj\Release\PrjAudioFail.vbprojResolveAssemblyReference.cache

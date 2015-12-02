@@ -1,0 +1,10 @@
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\bin\Release\PrjPlaylist.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\bin\Release\PrjPlaylist.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\bin\Release\PrjPlaylist.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\bin\Release\M3U.NET.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Release\PrjPlaylist.vbprojResolveAssemblyReference.cache
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Release\PrjPlaylist.Resources.resources
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Release\PrjPlaylist.vbproj.GenerateResource.Cache
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Release\PrjPlaylist.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Release\PrjPlaylist.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Release\PrjPlaylist.pdb

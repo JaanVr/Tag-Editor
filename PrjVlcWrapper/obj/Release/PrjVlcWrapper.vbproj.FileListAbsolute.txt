@@ -1,0 +1,15 @@
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\bin\Release\PrjVlcWrapper.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\bin\Release\PrjVlcWrapper.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\bin\Release\PrjVlcWrapper.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\bin\Release\Interop.AXVLC.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\bin\Release\AxInterop.AXVLC.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\obj\Release\Interop.AXVLC.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\obj\Release\AxInterop.AXVLC.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\obj\Release\PrjVlcWrapper.vbproj.ResolveComReference.cache
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\obj\Release\PrjVlcWrapper.Resources.resources
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\obj\Release\PrjVlcWrapper.UCtrlVLCWrapper.resources
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\obj\Release\PrjVlcWrapper.vbproj.GenerateResource.Cache
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\obj\Release\PrjVlcWrapper.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\obj\Release\PrjVlcWrapper.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\obj\Release\PrjVlcWrapper.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjVlcWrapper\obj\Release\PrjVlcWrapper.vbprojResolveAssemblyReference.cache

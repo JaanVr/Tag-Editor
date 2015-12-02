@@ -1,0 +1,10 @@
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\bin\Debug\PrjPlaylist.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\bin\Debug\PrjPlaylist.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\bin\Debug\PrjPlaylist.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Debug\PrjPlaylist.vbprojResolveAssemblyReference.cache
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Debug\PrjPlaylist.Resources.resources
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Debug\PrjPlaylist.vbproj.GenerateResource.Cache
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Debug\PrjPlaylist.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Debug\PrjPlaylist.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\obj\Debug\PrjPlaylist.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlaylist\bin\Debug\M3U.NET.dll
