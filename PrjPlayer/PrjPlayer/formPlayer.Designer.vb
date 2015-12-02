@@ -26,13 +26,15 @@ Partial Class formPlayer
         Me.songsDataGridView = New System.Windows.Forms.DataGridView()
         Me.FolderBrowserDialog = New System.Windows.Forms.FolderBrowserDialog()
         Me.btnSave = New System.Windows.Forms.Button()
+        Me.btnPlaylist = New System.Windows.Forms.Button()
+        Me.btnPlay = New System.Windows.Forms.Button()
         CType(Me.songsDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnOpenFolder
         '
         Me.btnOpenFolder.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnOpenFolder.Location = New System.Drawing.Point(12, 345)
+        Me.btnOpenFolder.Location = New System.Drawing.Point(12, 375)
         Me.btnOpenFolder.Name = "btnOpenFolder"
         Me.btnOpenFolder.Size = New System.Drawing.Size(75, 23)
         Me.btnOpenFolder.TabIndex = 1
@@ -52,25 +54,47 @@ Partial Class formPlayer
         Me.songsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.songsDataGridView.Location = New System.Drawing.Point(12, 12)
         Me.songsDataGridView.Name = "songsDataGridView"
-        Me.songsDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect
-        Me.songsDataGridView.Size = New System.Drawing.Size(577, 323)
+        Me.songsDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.songsDataGridView.Size = New System.Drawing.Size(556, 353)
         Me.songsDataGridView.TabIndex = 2
         '
         'btnSave
         '
         Me.btnSave.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnSave.Location = New System.Drawing.Point(93, 345)
+        Me.btnSave.Location = New System.Drawing.Point(93, 375)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
         Me.btnSave.TabIndex = 3
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
+        'btnPlaylist
+        '
+        Me.btnPlaylist.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.btnPlaylist.Location = New System.Drawing.Point(175, 375)
+        Me.btnPlaylist.Name = "btnPlaylist"
+        Me.btnPlaylist.Size = New System.Drawing.Size(93, 23)
+        Me.btnPlaylist.TabIndex = 4
+        Me.btnPlaylist.Text = "Add to playlist"
+        Me.btnPlaylist.UseVisualStyleBackColor = True
+        '
+        'btnPlay
+        '
+        Me.btnPlay.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.btnPlay.Location = New System.Drawing.Point(274, 375)
+        Me.btnPlay.Name = "btnPlay"
+        Me.btnPlay.Size = New System.Drawing.Size(75, 23)
+        Me.btnPlay.TabIndex = 5
+        Me.btnPlay.Text = "Preview"
+        Me.btnPlay.UseVisualStyleBackColor = True
+        '
         'formPlayer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(601, 383)
+        Me.ClientSize = New System.Drawing.Size(580, 413)
+        Me.Controls.Add(Me.btnPlay)
+        Me.Controls.Add(Me.btnPlaylist)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.songsDataGridView)
         Me.Controls.Add(Me.btnOpenFolder)
@@ -84,4 +108,6 @@ Partial Class formPlayer
     Friend WithEvents songsDataGridView As DataGridView
     Friend WithEvents FolderBrowserDialog As FolderBrowserDialog
     Friend WithEvents btnSave As Button
+    Friend WithEvents btnPlaylist As Button
+    Friend WithEvents btnPlay As Button
 End Class

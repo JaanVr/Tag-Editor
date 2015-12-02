@@ -13,3 +13,11 @@ C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\
 C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\obj\Debug\PrjPlayer.exe
 C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\obj\Debug\PrjPlayer.xml
 C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\obj\Debug\PrjPlayer.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjPlaylist.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjPlaylist.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjPlaylist.xml
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\M3U.NET.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\AxInterop.AXVLC.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjVlcWrapper.dll
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjVlcWrapper.pdb
+C:\Users\Jaan\Documents\Kool\Ained\Tarkvaratehnika\Homework\PrjPlayer\PrjPlayer\bin\Debug\PrjVlcWrapper.xml

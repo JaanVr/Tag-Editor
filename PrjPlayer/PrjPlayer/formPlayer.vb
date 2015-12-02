@@ -1,9 +1,13 @@
 ﻿Imports PrjAudioFail
+Imports PrjPlaylist
+Imports PrjVlcWrapper
 
 Public Class formPlayer
     Private audioFailid As New Microsoft.VisualBasic.Collection()
     Private dirtySongKeys As New Microsoft.VisualBasic.Collection()
-    Dim folderPath As String
+    Private folderPath As String
+    Private playlist As IPlaylist = New CPlaylist
+    'Private player As New UCtrlVLCWrapper
 
     Private Sub formPlayer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -17,6 +21,7 @@ Public Class formPlayer
         songsDataGridView.Columns(4).Name = "Year"
 
         btnSave.Enabled = False
+        btnPlaylist.Enabled = False
     End Sub
 
     Private Sub btnOpenFolder_Click(sender As Object, e As EventArgs) Handles btnOpenFolder.Click
@@ -31,7 +36,9 @@ Public Class formPlayer
         For Each foundFile As String In My.Computer.FileSystem.GetFiles(folderPath)
             If foundFile.Contains(".flac") Or foundFile.Contains(".mp3") Then
 
-                Dim audioFail As CAudioFail = New CAudioFail
+                Dim audioFail As IAudioFail
+                audioFail = New CAudioFail
+
                 audioFail.avaFail(foundFile)
                 audioFailid.Add(audioFail, index.ToString)
 
@@ -42,6 +49,7 @@ Public Class formPlayer
         Next
 
         btnSave.Enabled = True
+        btnPlaylist.Enabled = True
     End Sub
 
     Private Sub songsDataGridView_CurrentCellDirtyStateChanged(sender As Object, e As EventArgs) Handles songsDataGridView.CurrentCellDirtyStateChanged
@@ -58,9 +66,11 @@ Public Class formPlayer
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
 
-        Dim audioFail As CAudioFail
+        Dim audioFail As IAudioFail
         Dim currentCells As DataGridViewCellCollection
         Dim indexCell As DataGridViewCell
+
+        audioFail = New CAudioFail
 
         For Each dirtySongKey As String In dirtySongKeys
             audioFail = audioFailid.Item(dirtySongKey)
@@ -75,7 +85,6 @@ Public Class formPlayer
                     audioFail.album = currentCells.Item(3).Value
                     audioFail.aasta = currentCells.Item(4).Value
                     audioFail.salvestaFail()
-
                     Exit For
                 End If
 
@@ -85,5 +94,31 @@ Public Class formPlayer
         dirtySongKeys.Clear()
         btnSave.Enabled = False
 
+    End Sub
+
+    Private Sub btnPlaylist_Click(sender As Object, e As EventArgs) Handles btnPlaylist.Click
+        Dim selectedRows As DataGridViewSelectedRowCollection
+        Dim indexCell As DataGridViewCell
+        Dim audioFail As IAudioFail
+
+        audioFail = New CAudioFail
+
+        playlist.create("debug", folderPath)
+        selectedRows = songsDataGridView.SelectedRows
+
+        For Each row As DataGridViewRow In selectedRows
+            indexCell = row.Cells.Item(0)
+            audioFail = audioFailid(indexCell.Value)
+            playlist.add(folderPath, audioFail.laul, audioFail.length)
+        Next
+
+        playlist.save(folderPath, "debug")
+    End Sub
+
+    Private Sub btnPlay_Click(sender As Object, e As EventArgs) Handles btnPlay.Click
+        'Dim form As New Form
+        'player.play(folderPath, "Little V - Side Quest - 01 Reach For The Heavens.flac")
+        'Form.Controls.Add(player)
+        'Form.Show()
     End Sub
 End Class

@@ -2,65 +2,76 @@
 
 Public Class CAudioFail
     Implements IAudioFail
-    Private artistName As String
-    Private aastaNumber As UInteger
-    Private albumName As String
-    Private laulName As String
+    Private artist As String
+    Private aasta As UInteger
+    Private album As String
+    Private laul As String
     Private tagFile As TagLib.File
+    Private length As Integer
 
-    Public Property album As String Implements IAudioFail.album
+    Private Property propAlbum As String Implements IAudioFail.album
         Get
-            Return albumName
+            Return album
         End Get
         Set(value As String)
             If value <> "" Then
-                albumName = value
+                album = value
             End If
         End Set
     End Property
 
-    Public Property artist As String Implements IAudioFail.artist
+    Private Property propArtist As String Implements IAudioFail.artist
         Get
-            Return artistName
+            Return artist
         End Get
         Set(value As String)
             If value <> "" Then
-                artistName = value
+                artist = value
             End If
         End Set
     End Property
 
-    Public Property laul As String Implements IAudioFail.laul
+    Private Property propLaul As String Implements IAudioFail.laul
         Get
-            Return laulName
+            Return laul
         End Get
         Set(value As String)
-            laulName = value
+            laul = value
         End Set
     End Property
 
-    Public Property aasta As UShort Implements IAudioFail.aasta
+    Private Property propAasta As UShort Implements IAudioFail.aasta
         Get
-            Return aastaNumber
+            Return aasta
         End Get
         Set(value As UShort)
-            aastaNumber = value
+            aasta = value
+        End Set
+    End Property
+
+    Private Property propLength As Integer Implements IAudioFail.length
+        Get
+            Return length
+        End Get
+        Set(value As Integer)
+            length = value
         End Set
     End Property
 
     Public Sub avaFail(path As String) Implements IAudioFail.avaFail
         tagFile = TagLib.File.Create(path)
-        aasta = tagFile.Tag.Year
-        album = tagFile.Tag.Album
-        artist = tagFile.Tag.Performers(0)
-        laul = tagFile.Tag.Title
+        propAasta = tagFile.Tag.Year
+        propAlbum = tagFile.Tag.Album
+        propArtist = tagFile.Tag.Performers(0)
+        propLaul = tagFile.Tag.Title
+        propLength = tagFile.Properties.Duration.TotalSeconds
     End Sub
 
     Public Sub salvestaFail() Implements IAudioFail.salvestaFail
-        tagFile.Tag.AlbumArtists = New String() {artist}
-        tagFile.Tag.Title = laul
-        tagFile.Tag.Album = album
-        tagFile.Tag.Year = aasta
+        tagFile.Tag.AlbumArtists = New String() {propArtist}
+        tagFile.Tag.Title = propLaul
+        tagFile.Tag.Album = propAlbum
+        tagFile.Tag.Year = propAasta
         tagFile.Save()
     End Sub
 End Class

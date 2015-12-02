@@ -47,8 +47,18 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxInterop.AXVLC">
+      <HintPath>..\..\PrjVlcWrapper\obj\Debug\AxInterop.AXVLC.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.AXVLC">
+      <HintPath>..\..\PrjVlcWrapper\obj\Debug\Interop.AXVLC.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="PrjAudioFail">
-      <HintPath>..\..\PrjAudioFail\PrjAudioFail\bin\Debug\PrjAudioFail.dll</HintPath>
+      <HintPath>..\..\PrjAudioFail\PrjAudioFail\bin\Release\PrjAudioFail.dll</HintPath>
+    </Reference>
+    <Reference Include="PrjPlaylist">
+      <HintPath>..\..\PrjPlaylist\bin\Debug\PrjPlaylist.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -110,6 +120,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -120,6 +132,12 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PrjVlcWrapper\PrjVlcWrapper.vbproj">
+      <Project>{ABB0ECD5-F74A-4A97-AB43-7BB8A793D287}</Project>
+      <Name>PrjVlcWrapper</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
